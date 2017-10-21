@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.omerakturk.gazetewithmenu.fragment.EkonomiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <ImageView
+                android:id="@+id/_btn_ekonomi1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ntv"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_ekonomi2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/aa"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_ekonomi3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:src="@drawable/sabah"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:id="@+id/_btn_ekonomi4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+
+                android:src="@drawable/hurriyet"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/_btn_ekonomi5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:src="@drawable/cumhuriyet"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/_btn_ekonomi6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:src="@drawable/aksam"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_ekonomi7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:src="@drawable/cnnturk"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/_btn_ekonomi8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:src="@drawable/bloomberg" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/_btn_ekonomi9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ensonhaber"
+
+                />
+
+            <ImageView
+                android:id="@+id/_btn_ekonomi10"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/posta"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_ekonomi11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/milliyet"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_ekonomi12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/sozcu"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

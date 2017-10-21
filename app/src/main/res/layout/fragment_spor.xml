@@ -1,0 +1,212 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.omerakturk.gazetewithmenu.fragment.SporFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:id="@+id/_btn_spor1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/fotomac"
+
+                />
+            <ImageView
+                android:id="@+id/_btn_spor2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/_btn_spor1"
+                android:src="@drawable/sporx"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_spor3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/_btn_spor2"
+                android:src="@drawable/fanatik"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_spor4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_spor3"
+                android:clickable="true"
+                android:src="@drawable/ajanssporbeta"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:id="@+id/_btn_spor5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_spor4"
+                android:clickable="true"
+
+                android:src="@drawable/aspor"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/_btn_spor6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_spor4"
+                android:clickable="true"
+                android:src="@drawable/beinsports"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_spor4"
+                android:clickable="true"
+                android:src="@drawable/futbolarena"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_spor4"
+                android:clickable="true"
+                android:src="@drawable/sporoku"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_spor4"
+                android:clickable="true"
+                android:src="@drawable/ntvspor1"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor10"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_spor4"
+                android:clickable="true"
+                android:src="@drawable/trtspor"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/_btn_spor11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/haber1903"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/webaslan"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/oniki"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/bordomavi"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/bursasporluyuz"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp">
+            <ImageView
+                android:id="@+id/_btn_spor16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/fb"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor17"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/bjk"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor18"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:src="@drawable/galata"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor19"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:src="@drawable/ttrabzonspor"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_spor20"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:src="@drawable/bursa"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gundem"
+            android:icon="@drawable/ic_action_news"
+            android:title="@string/nav_gundem" />
+        <item
+            android:id="@+id/nav_spor"
+            android:icon="@drawable/ic_action_ball"
+            android:title="@string/nav_spor" />
+        <item
+            android:id="@+id/nav_ekonomi"
+            android:icon="@drawable/ic_action_business"
+            android:title="@string/nav_ekonomi" />
+
+        <item
+            android:id="@+id/nav_dunya"
+            android:icon="@drawable/ic_action_globe"
+            android:title="@string/nav_dunya" />
+
+        <item
+            android:id="@+id/nav_kadin"
+            android:icon="@drawable/ic_action_heart"
+            android:title="@string/nav_kadin" />
+        <item
+            android:id="@+id/nav_magazin"
+            android:icon="@drawable/ic_butterfly"
+            android:title="@string/nav_magazin" />
+        <item
+            android:id="@+id/nav_galeri"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_galeri" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_action_playback_play"
+            android:title="@string/nav_video" />
+
+        <item
+            android:id="@+id/nav_kultur"
+            android:icon="@drawable/ic_action_book"
+            android:title="@string/nav_kultur_sanat" />
+
+        <item
+            android:id="@+id/nav_teknoloji"
+            android:icon="@drawable/ic_action_laptop"
+            android:title="@string/nav_teknoloji" />
+        <item
+            android:id="@+id/nav_seyahat"
+            android:icon="@drawable/ic_action_plane"
+            android:title="@string/nav_seyahat" />
+
+    </group>
+
+</menu>

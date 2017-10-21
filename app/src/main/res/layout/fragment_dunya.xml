@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.omerakturk.gazetewithmenu.fragment.DunyaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/_container"
+            >
+            <ImageView
+                android:id="@+id/_btn_dunya1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bbc"
+
+                />
+            <ImageView
+                android:id="@+id/_btn_dunya2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/_btn_dunya1"
+                android:src="@drawable/elcezire"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_dunya3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/_btn_dunya2"
+                android:src="@drawable/reuters"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_dunya4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_dunya3"
+                android:clickable="true"
+                android:src="@drawable/thesun"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:id="@+id/_btn_dunya5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_dunya4"
+                android:clickable="true"
+
+                android:src="@drawable/nytimes"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/_btn_dunya6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_dunya4"
+                android:clickable="true"
+                android:src="@drawable/washington"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_dunya4"
+                android:clickable="true"
+                android:src="@drawable/independent"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_dunya4"
+                android:clickable="true"
+                android:src="@drawable/dailymail"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_dunya4"
+                android:clickable="true"
+                android:src="@drawable/thetelegraph"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya10"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_dunya4"
+                android:clickable="true"
+                android:src="@drawable/ft"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/_btn_dunya11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/guardian"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/dw"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/spiegel"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/france24"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/midilogo"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/_btn_dunya16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/rt"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/_btn_dunya17"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/sputnik"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

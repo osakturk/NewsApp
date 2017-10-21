@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.omerakturk.gazetewithmenu.fragment.SeyahatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:id="@+id/_btn_seyahat1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cnnturk"
+
+                />
+            <ImageView
+                android:id="@+id/_btn_seyahat2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/_btn_seyahat1"
+                android:src="@drawable/ntv"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_seyahat3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/_btn_seyahat2"
+                android:src="@drawable/ensonhaber"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_seyahat4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_seyahat3"
+                android:clickable="true"
+                android:src="@drawable/dunyass"
+                android:layout_marginTop="20dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/_btn_seyahat5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_seyahat4"
+                android:clickable="true"
+
+                android:src="@drawable/nationalt"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_seyahat6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_seyahat4"
+                android:clickable="true"
+                android:src="@drawable/supperhaber"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/_btn_seyahat7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_seyahat4"
+                android:clickable="true"
+                android:src="@drawable/skyscanner"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_seyahat8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_seyahat4"
+                android:clickable="true"
+                android:src="@drawable/sozcu"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

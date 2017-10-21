@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.omerakturk.gazetewithmenu.fragment.KulturSanatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:id="@+id/_btn_kultur1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cumhuriyet"
+
+                />
+            <ImageView
+                android:id="@+id/_btn_kultur2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/_btn_kultur1"
+                android:src="@drawable/t24"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_kultur3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/_btn_kultur2"
+                android:src="@drawable/aksam"
+                android:clickable="true"
+                />
+            <ImageView
+                android:id="@+id/_btn_kultur4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_kultur3"
+                android:clickable="true"
+                android:src="@drawable/milliyet"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:id="@+id/_btn_kultur5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/sozcu"
+                android:layout_marginTop="10dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/_btn_kultur6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_kultur4"
+                android:clickable="true"
+                android:src="@drawable/haberturk"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_kultur7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_kultur4"
+                android:clickable="true"
+                android:src="@drawable/hurriyet"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_kultur8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_kultur4"
+                android:clickable="true"
+                android:src="@drawable/trthaber"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_kultur9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/_btn_kultur4"
+                android:clickable="true"
+                android:src="@drawable/ensonhaber"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_kultur10"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/radikal"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/_btn_kultur11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/sabah"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_kultur12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/ntv"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_kultur13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/istanbul"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.02" />
+            <ImageView
+                android:id="@+id/_btn_kultur14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/devtiyatro"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/_btn_kultur15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:clickable="true"
+                android:src="@drawable/bienal"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

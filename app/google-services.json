@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "247298824387",
+    "firebase_url": "https://gazetewithmenu.firebaseio.com",
+    "project_id": "gazetewithmenu",
+    "storage_bucket": "gazetewithmenu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247298824387:android:8d979caec9d88745",
+        "android_client_info": {
+          "package_name": "com.omerakturk.gazetewithmenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247298824387-f20tn356b705chgqtnog0lc4o5tmlijc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omerakturk.gazetewithmenu",
+            "certificate_hash": "03b292ec2a47216a0a3fe1a4e85a2eaec8a9c4d1"
+          }
+        },
+        {
+          "client_id": "247298824387-multifac0jbfg60iiml1l6gmsimk10nm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfIaJzzttWfDLfkeRRZDDL71yXRx4J5zo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247298824387-multifac0jbfg60iiml1l6gmsimk10nm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

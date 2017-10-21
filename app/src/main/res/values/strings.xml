@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">Gazeteler</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+
+    <string name="nav_gundem">Gündem</string>
+    <string name="nav_spor">Spor</string>
+    <string name="nav_ekonomi">Ekonomi</string>
+    <string name="nav_dunya">Dünya</string>
+    <string name="nav_magazin">Magazin</string>
+    <string name="nav_kadin">Kadın</string>
+    <string name="nav_kultur_sanat">Kültür Sanat</string>
+    <string name="nav_galeri">Galeri</string>
+    <string name="nav_seyahat">Seyahat</string>
+    <string name="nav_teknoloji">Teknoloji</string>
+    <string name="nav_video">Video</string>
+    <string name="nav_privacy_policy">Özgeçmiş ve Abstract</string>
+    
+    
+    <string name="kanal_ismi">Bildirim Kanalı</string>
+    <string name="kanal_aciklama">Yeniden uygulamaya girmek istemez misiniz?</string>
+
+    /* Gündem */
+    <string name="ensonhaber">http://www.ensonhaber.com</string>
+    <string name="sabah">http://www.sabah.com.tr</string>
+    <string name="ntv">http://www.ntv.com.tr</string>
+    <string name="aa">http://www.aa.com.tr/</string>
+    <string name="takvim">http://www.takvim.com.tr/</string>
+    <string name="akit">http://www.yeniakit.com.tr/</string>
+    <string name="hurriyet">http://www.hurriyet.com.tr/</string>
+    <string name="sozcu">http://www.sozcu.com.tr/</string>
+    <string name="cumhuriyet">http://www.cumhuriyet.com.tr/</string>
+    <string name="aksam">http://www.aksam.com.tr/</string>
+    <string name="cnn">https://www.cnnturk.com/</string>
+    <string name="star">http://www.star.com.tr/</string>
+    <string name="karar">http://www.karar.com/</string>
+    <string name="milliyet">http://www.milliyet.com.tr/</string>
+    <string name="posta">http://www.posta.com.tr/</string>
+    <string name="haberturk">http://www.haberturk.com/</string>
+    <string name="yenisafak">http://www.yenisafak.com/</string>
+    <string name="vatan">http://www.gazetevatan.com.tr/</string>
+    <string name="haber7">http://www.haber7.com</string>
+    <string name="radikal">http://www.radikal.com.tr/</string>
+    <string name="trthaber">http://www.trthaber.com/</string>
+    <string name="t24">http://t24.com.tr/</string>
+
+     /* Teknoloji */
+    <string name="ntvteknoloji">http://www.ntv.com.tr/teknoloji</string>
+    <string name="shiftdelete">https://shiftdelete.net/teknoloji-haberleri</string>
+    <string name="webtekno">http://www.webtekno.com</string>
+    <string name="chiponline">http://www.chip.com.tr</string>
+    <string name="teknolojioku">http://www.teknolojioku.com/</string>
+    <string name="ensonhaberteknoloji">http://www.ensonhaber.com/kategori/teknoloji/</string>
+    <string name="sabahteknoloji">http://www.sabah.com.tr/teknoloji</string>
+    <string name="haber7teknoloji">http://www.haber7.com/teknoloji</string>
+    <string name="milliyetteknoloji">http://www.milliyet.com.tr/teknoloji/</string>
+    <string name="hurriyetteknoloji">http://www.hurriyet.com.tr/teknoloji/</string>
+    <string name="gazetevatantekno">http://www.gazetevatan.com.tr/teknoloji/</string>
+    <string name="haberturktekno">http://www.haberturk.com/ekonomi/teknoloji</string>
+    <string name="yenişafaktekno">http://www.yenisafak.com/teknoloji</string>
+    <string name="ahabertekno">http://www.ahaber.com.tr/teknoloji</string>
+
+
+    /* Seyahat */
+    <string name="sozcuseyahat">http://www.sozcu.com.tr/hayatim/seyahat</string>
+    <string name="skyscanner">https://www.skyscanner.com.tr/haberler</string>
+    <string name="superhaber">http://www.superhaber.tv/seyahat</string>
+    <string name="nationalturk">http://www.nationalturk.com/kategori/seyahat/</string>
+    <string name="dunyacom">https://www.dunya.com/etiket/seyahat</string>
+    <string name="ensonhaberseyahat">http://www.ensonhaber.com/kategori/seyahat/</string>
+    <string name="ntvseyahat">http://www.ntv.com.tr/seyahat</string>
+    <string name="cnnseyahat">https://www.cnnturk.com/seyahat</string>
+
+
+    /* Spor */
+    <string name="fotomac">http://www.fotomac.com.tr/</string>
+    <string name="sporx">http://www.sporx.com/</string>
+    <string name="fanatik">http://www.fanatik.com.tr/</string>
+    <string name="ajansspor">http://www.ajansspor.com/</string>
+    <string name="aspor">https://www.aspor.com.tr/</string>
+    <string name="beinsports">http://tr.beinsports.com/</string>
+    <string name="futbolarena">http://www.futbolarena.com/</string>
+    <string name="sporoku">http://www.sporoku.com/</string>
+    <string name="ntvspor">http://www.ntvspor.net/</string>
+    <string name="trtspor">http://www.trtspor.com.tr/</string>
+    <string name="haber1903">http://haber1903.com/</string>
+    <string name="webaslan">http://www.webaslan.com/</string>
+    <string name="onikinumara">http://www.12numara.org/</string>
+    <string name="bordomavi">https://www.bordomavi.net/</string>
+    <string name="bursasporluyuz">https://www.bursasporluyuz.org/</string>
+    <string name="fenerbahce">http://www.fenerbahce.org/</string>
+    <string name="besiktas">http://www.bjk.com.tr/tr</string>
+    <string name="galatasaray">http://www.galatasaray.org/anasayfa</string>
+    <string name="trabzonspor">http://www.trabzonspor.org.tr/tr</string>
+    <string name="bursaspor">https://www.bursaspor.org.tr/</string>
+
+    /* Magazin */
+    <string name="hurriyetkelebek">http://www.hurriyet.com.tr/kelebek/</string>
+    <string name="gecce">https://www.gecce.com.tr/magazin</string>
+    <string name="ucankus">https://ucankus.com/</string>
+    <string name="milliyetmagazin">http://www.milliyet.com.tr/magazin/</string>
+    <string name="karnaval">https://karnaval.com/magazin</string>
+    <string name="htkulup">http://htkulup.haberturk.com/</string>
+
+    /* Kadın */
+    <string name="kadinhaberler">http://www.kadinhaberleri.com/</string>
+    <string name="sabahkadin">http://www.sabah.com.tr/kadin</string>
+    <string name="mynetkadin">http://www.mynet.com/haber/kadin/</string>
+    <string name="htkadin">http://hthayat.haberturk.com/</string>
+    <string name="kadinhaberleri">http://kadinhaberleri.org/</string>
+    <string name="yenikadin">https://www.yenikadin.com/</string>
+    <string name="leyditürk">https://www.haber3.com/kadin</string>
+    <string name="hurriyetkadin">http://www.hurriyet.com.tr/haberleri/kadin</string>
+    <string name="kadinvekadin">http://www.kadinvekadin.net/</string>
+
+    /* Video */
+    <string name="ensonhabervideo">http://videonuz.ensonhaber.com/</string>
+    <string name="ntvvideo">http://www.ntv.com.tr/video</string>
+    <string name="aavideo">http://aa.com.tr/tr/vgc/video-galeri/0</string>
+    <string name="akitvideo">http://www.yeniakit.com.tr/videolar</string>
+    <string name="hurriyetvideo">http://www.hurriyet.com.tr/video/</string>
+    <string name="cumhuriyetvideo">http://www.cumhuriyet.com.tr/bolum/23/video.html</string>
+    <string name="aksamvideo">http://www.aksam.com.tr/video-galeri/</string>
+    <string name="cnnvideo">https://www.cnnturk.com/videolar</string>
+    <string name="kararvideo">http://www.karar.com/karar-tv</string>
+    <string name="postavideo">http://www.posta.com.tr/video</string>
+    <string name="haberturkvideo">http://www.haberturk.com/video</string>
+    <string name="yenisafakvideo">http://www.yenisafak.com/video-galeri</string>
+
+    /* Galeri */
+    <string name="ensonhabergaleri">http://www.ensonhaber.com/foto-galeri</string>
+    <string name="ntvgaleri">http://www.ntv.com.tr/galeri</string>
+    <string name="aagaleri">http://aa.com.tr/tr/pgc/foto-galeri/0</string>
+    <string name="akitgaleri">http://www.yeniakit.com.tr/foto-galeri</string>
+    <string name="hurriyetgaleri">http://fotogaleri.hurriyet.com.tr/</string>
+    <string name="cumhuriyetgaleri">http://www.cumhuriyet.com.tr/bolum/24/foto_galeri.html</string>
+    <string name="aksamgaleri">http://www.aksam.com.tr/foto-galeri/</string>
+    <string name="cnngaleri">https://www.cnnturk.com/galeriler</string>
+    <string name="karargaleri">http://www.karar.com/foto-galeri</string>
+    <string name="postagaleri">http://www.posta.com.tr/foto-galeri</string>
+    <string name="haberturkgaleri">http://www.haberturk.com/galeri</string>
+    <string name="yenisafakgaleri">http://www.yenisafak.com/foto-galeri</string>
+    <string name="sozcugaleri">http://www.sozcu.com.tr/kategori/galeri/</string>
+
+    /*Ekonomi*/
+    <string name="ensonhaberekonomi">http://www.ensonhaber.com/kategori/ekonomi</string>
+    <string name="ntvekonomi">http://www.ntv.com.tr/ekonomi</string>
+    <string name="aaekonomi">http://www.haberturk.com/ekonomi</string>
+    <string name="sabahekonomi">http://www.sabah.com.tr/ekonomi</string>
+    <string name="hurriyetekonomi">http://www.hurriyet.com.tr/ekonomi/</string>
+    <string name="cumhuriyetekonomi">http://www.cumhuriyet.com.tr/bolum/6/ekonomi.html</string>
+    <string name="aksamekonomi">http://www.aksam.com.tr/ekonomi/</string>
+    <string name="cnnekonomi">https://www.cnnturk.com/ekonomi</string>
+    <string name="kararekonomi">http://www.karar.com/ekonomi-haberleri</string>
+    <string name="postaekonomi">http://www.posta.com.tr/ekonomi</string>
+    <string name="haberturkekonomi">http://www.haberturk.com/ekonomi</string>
+    <string name="yenisafakekonomi">http://www.yenisafak.com/ekonomi</string>
+    <string name="sozcuekonomi">http://www.sozcu.com.tr/kategori/ekonomi/</string>
+    <string name="milliyetekonomi">http://www.milliyet.com.tr/ekonomi/</string>
+    <string name="bloomberg">http://www.bloomberght.com/</string>
+
+    /* Dünya */
+    <string name="bbcturkce">http://www.bbc.com/turkce</string>
+    <string name="aljazeeraturkce">http://www.aljazeera.com.tr/</string>
+    <string name="reuters">http://www.reuters.com/places/turkey</string>
+    <string name="thesun">https://www.thesun.co.uk/</string>
+    <string name="newyorktimes">https://www.nytimes.com/</string>
+    <string name="washingtonpost">https://www.washingtonpost.com/</string>
+    <string name="independent">http://www.independent.co.uk/</string>
+    <string name="dailymail">http://www.dailymail.co.uk/home/index.html</string>
+    <string name="telegraph">http://www.telegraph.co.uk/</string>
+    <string name="financialtimes">https://www.ft.com/</string>
+    <string name="guardian">https://www.theguardian.com/international</string>
+    <string name="deutschewelle">http://www.dw.com/tr/gündem/s-10201</string>
+    <string name="spiegel">http://www.spiegel.de/international/</string>
+    <string name="france24">http://www.france24.com/en/</string>
+    <string name="metropolparis">http://www.metropoleparis.com/</string>
+    <string name="rt">https://www.rt.com/</string>
+    <string name="sputnik">https://sputniknews.com/</string>
+
+    /* Kültür Sanat */
+    <string name="radikalkultur">http://www.radikal.com.tr/kultur/</string>
+    <string name="ntvkultur">http://www.ntv.com.tr/sanat</string>
+    <string name="sabahkultur">http://www.sabah.com.tr/kultur-sanat</string>
+    <string name="sozcukultur">http://www.sozcu.com.tr/hayatim/kultur-sanat-haberleri</string>
+    <string name="ensonhaberkultur">http://www.ensonhaber.com/kategori/kultur-sanat/</string>
+    <string name="trtkultur">http://www.trthaber.com/haber/kultur-sanat/</string>
+    <string name="hurriyetkultur">http://www.hurriyet.com.tr/haberleri/kultur-sanat</string>
+    <string name="haberturkkultur">http://www.haberturk.com/kultur-sanat</string>
+    <string name="milliyetkultur">http://www.milliyet.com.tr/kultursanat/</string>
+    <string name="aksamkultur">http://www.aksam.com.tr/kultur-sanat/</string>
+    <string name="t24kultur">http://t24.com.tr/haber/kultur-sanat</string>
+    <string name="cumhuriyetkultur">http://www.cumhuriyet.com.tr/bolum/7/kultur-sanat.html</string>
+    <string name="devlettiyatro">http://www.devtiyatro.gov.tr/</string>
+    <string name="istanbulnet">http://www.istanbul.net.tr/</string>
+    <string name="bienal">http://15b.iksv.org/tr</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+
+    <string-array name="nav_item_activity_titles">
+
+        <item>Gundem</item>
+        <item>Ekonomi</item>
+        <item>Dünya</item>
+        <item>Kadın</item>
+        <item>Spor</item>
+        <item>Teknoloji</item>
+        <item>Magazin</item>
+        <item>Kültür Sanat</item>
+        <item>Seyahat</item>
+        <item>Video</item>
+        <item>Galeri</item>
+
+    </string-array>
+
+
+
+
+
+
+
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Özgeçmiş ve Abstract</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
