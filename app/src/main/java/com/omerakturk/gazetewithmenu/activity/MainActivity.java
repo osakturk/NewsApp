@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         fabphone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String phonenumber="05322478357";
+                String phonenumber="0123456789";
                 Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format("tel:%s", phonenumber)));
                 startActivity(in);
             }
